@@ -1,0 +1,27 @@
+{
+    "name": "heedworks/laravel-loggr",
+    "description": "",
+    "authors": [
+        {
+            "name": "Neal Erickson",
+            "email": "neal@heedworks.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type":"vcs",
+            "url":"/Users/neal/workspace/clients/Heedworks/Packages/loggr-php/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*",
+        "heedworks/loggr-php": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Heedworks\\LaravelLoggr": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
