@@ -1,16 +1,10 @@
 {
     "name": "heedworks/laravel-loggr",
-    "description": "",
+    "description": "Laravel wrapper for Loggr",
     "authors": [
         {
             "name": "Neal Erickson",
             "email": "neal@heedworks.com"
-        }
-    ],
-    "repositories": [
-        {
-            "type":"vcs",
-            "url":"/Users/neal/workspace/clients/Heedworks/Packages/loggr-php/"
         }
     ],
     "require": {

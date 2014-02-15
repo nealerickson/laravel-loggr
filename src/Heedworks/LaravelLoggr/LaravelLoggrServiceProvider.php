@@ -32,7 +32,7 @@ class LaravelLoggrServiceProvider extends ServiceProvider {
 	{
 		$this->app['loggr'] = $this->app->share(function($app)
 		{
-			return new Loggr(Config::get('laravel-loggr::logKey'),Config::get('laravel-loggr::apiKey'));
+			return new Loggr(Config::get('laravel-loggr::logKey'), Config::get('laravel-loggr::apiKey'));
 		});
 	}
 
@@ -43,7 +43,7 @@ class LaravelLoggrServiceProvider extends ServiceProvider {
 	 */
 	public function provides()
 	{
-		return array();
+		return array('loggr');
 	}
 
 }
