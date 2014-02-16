@@ -1,16 +1,22 @@
 {
     "name": "heedworks/laravel-loggr",
     "description": "Laravel wrapper for Loggr",
+    "type": "library",
+    "keywords": ["laravel", "loggr", "errors", "exceptions", "logging"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Neal Erickson",
-            "email": "neal@heedworks.com"
+            "email": "neal@heedworks.com",
+            "homepage": "https://github.com/nealerickson"
         }
     ],
     "require": {
         "php": ">=5.3.0",
-        "illuminate/support": "4.1.*",
         "heedworks/loggr-php": "*"
+    },
+    "require-dev": {
+        "illuminate/support": "4.1.*"
     },
     "autoload": {
         "psr-0": {
